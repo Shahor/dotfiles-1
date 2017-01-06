@@ -16,6 +16,8 @@ function doIt() {
 		--exclude "settings" \
 		--exclude "setup-extras" \
 		-avh --no-perms . ~;
+		
+	sh ./setup.sh
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
