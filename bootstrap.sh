@@ -17,7 +17,11 @@ function doIt() {
 		--exclude "setup-extras" \
 		-avh --no-perms . ~;
 		
-	sh ./setup.sh
+	read -p "Do you want me to run the full install as well? (y/n) " -n 1;
+	echo "";
+	if [[ $REPLY =~ ^[Yy]$ ]]; then
+		sh ./setup.sh;
+	fi;
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
