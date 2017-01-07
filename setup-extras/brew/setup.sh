@@ -2,12 +2,13 @@
 
 declare -a packages=(
 	the_silver_searcher
-	git
+	git # latest version
 	tree
-	coreutils
+	coreutils # some additional unix tools
 	findutils
-	zsh
-	jump
+	zsh # get latest version
+	jump # because its awesum
+	ruby # Use latest version
 )
 
 brew update
