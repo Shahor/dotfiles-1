@@ -12,6 +12,7 @@ declare -a packages=(
 	visual-studio-code
 	spotify
 	slack
+	imageoptim
 )
 
 for package in "${packages[@]}"
