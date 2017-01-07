@@ -10,6 +10,7 @@ declare -a packages=(
 	docker
 	toggldesktop
 	visual-studio-code
+	spotify
 )
 
 for package in "${packages[@]}"

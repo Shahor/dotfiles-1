@@ -8,7 +8,6 @@ declare -a packages=(
 	findutils
 	zsh
 	jump
-
 )
 
 brew update
