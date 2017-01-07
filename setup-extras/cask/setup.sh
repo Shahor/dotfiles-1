@@ -11,6 +11,7 @@ declare -a packages=(
 	toggldesktop
 	visual-studio-code
 	spotify
+	slack
 )
 
 for package in "${packages[@]}"
