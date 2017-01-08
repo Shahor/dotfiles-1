@@ -13,6 +13,7 @@ declare -a packages=(
 	spotify
 	slack
 	imageoptim
+	vlc
 )
 
 for package in "${packages[@]}"
