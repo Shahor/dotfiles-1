@@ -14,6 +14,7 @@ declare -a packages=(
 	slack
 	imageoptim
 	vlc
+	flux
 )
 
 for package in "${packages[@]}"
