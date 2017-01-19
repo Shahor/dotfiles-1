@@ -9,7 +9,8 @@
 	lp = log -p
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
-	l = log --pretty=oneline --graph --abbrev-commit
+	# l = log --pretty=oneline --graph --abbrev-commit
+	l = log --pretty=format:'%C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
 
 	# View the current working tree status using the short format
 	st = status
