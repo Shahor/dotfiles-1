@@ -15,6 +15,7 @@ declare -a packages=(
 	imageoptim
 	vlc
 	flux
+	spectacle
 )
 
 for package in "${packages[@]}"
