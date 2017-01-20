@@ -9,6 +9,7 @@ declare -a packages=(
 	zsh # get latest version
 	jump # because its awesum
 	ruby # Use latest version
+	httpie
 )
 
 brew update
