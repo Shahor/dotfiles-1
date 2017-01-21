@@ -17,6 +17,7 @@ declare -a packages=(
 	flux
 	spectacle
 	wireshark
+	drop-to-gif
 )
 
 for package in "${packages[@]}"
