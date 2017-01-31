@@ -18,6 +18,7 @@ declare -a packages=(
 	spectacle
 	drop-to-gif
 	charles
+	wireshark
 )
 
 for package in "${packages[@]}"
