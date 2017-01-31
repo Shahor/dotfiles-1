@@ -16,8 +16,8 @@ declare -a packages=(
 	vlc
 	flux
 	spectacle
-	wireshark
 	drop-to-gif
+	charles
 )
 
 for package in "${packages[@]}"
