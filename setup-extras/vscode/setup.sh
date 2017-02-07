@@ -6,6 +6,7 @@ declare -a extensions=(
 	EditorConfig.EditorConfig
 	robertohuertasm.vscode-icons
 	azemoh.theme-onedark
+	eamodio.gitlens
 )
 
 for extension in "${extensions[@]}"
