@@ -7,6 +7,7 @@ declare -a extensions=(
 	robertohuertasm.vscode-icons
 	azemoh.theme-onedark
 	eamodio.gitlens
+	kumar-harsh.graphql-for-vscode
 )
 
 for extension in "${extensions[@]}"
