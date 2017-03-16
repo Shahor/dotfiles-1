@@ -19,6 +19,7 @@ declare -a packages=(
 	drop-to-gif
 	charles
 	wireshark
+	the-unarchiver
 )
 
 for package in "${packages[@]}"
