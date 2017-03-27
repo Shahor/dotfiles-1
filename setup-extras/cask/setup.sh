@@ -20,6 +20,7 @@ declare -a packages=(
 	charles
 	wireshark
 	the-unarchiver
+	sequel-pro
 )
 
 for package in "${packages[@]}"
