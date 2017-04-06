@@ -22,6 +22,7 @@ declare -a packages=(
 	the-unarchiver
 	sequel-pro
 	simple-comic
+	sketch
 )
 
 for package in "${packages[@]}"
