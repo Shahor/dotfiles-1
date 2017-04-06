@@ -21,6 +21,7 @@ declare -a packages=(
 	wireshark
 	the-unarchiver
 	sequel-pro
+	simple-comic
 )
 
 for package in "${packages[@]}"
