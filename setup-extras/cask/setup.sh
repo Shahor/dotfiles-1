@@ -23,6 +23,7 @@ declare -a packages=(
 	sequel-pro
 	simple-comic
 	sketch
+	istat-menus
 )
 
 for package in "${packages[@]}"
