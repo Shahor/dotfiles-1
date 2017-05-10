@@ -10,6 +10,7 @@ declare -a packages=(
 	jump # because its awesum
 	ruby # Use latest version
 	httpie
+	jq # Json formatter
 )
 
 brew update
