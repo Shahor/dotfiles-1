@@ -10,7 +10,6 @@ declare -a extensions=(
 	kumar-harsh.graphql-for-vscode
 	oderwat.indent-rainbow
 	zhuangtongfa.material-theme
-	RobinMalfait.prettier-eslint-vscode
 	esbenp.prettier-vscode
 	2gua.rainbow-brackets
 	eg2.tslint
