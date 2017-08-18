@@ -1,5 +1,9 @@
 #!/bin/bash
 
+declare -a taps=(
+	caskroom/fonts
+)
+
 declare -a packages=(
 	alfred
 	firefox
@@ -24,7 +28,13 @@ declare -a packages=(
 	simple-comic
 	sketch
 	istat-menus
+	font-fira-code
 )
+
+for tap in "${taps[@]}"
+do
+	brew tap $tap
+done
 
 for package in "${packages[@]}"
 do
