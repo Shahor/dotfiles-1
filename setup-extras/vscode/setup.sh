@@ -13,6 +13,7 @@ declare -a extensions=(
 	esbenp.prettier-vscode
 	2gua.rainbow-brackets
 	eg2.tslint
+	wayou.vscode-todo-highlight
 )
 
 for extension in "${extensions[@]}"
