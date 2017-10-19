@@ -29,6 +29,7 @@ declare -a packages=(
 	sketch
 	istat-menus
 	font-fira-code
+	station
 )
 
 for tap in "${taps[@]}"
