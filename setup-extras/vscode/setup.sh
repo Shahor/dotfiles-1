@@ -14,6 +14,7 @@ declare -a extensions=(
 	2gua.rainbow-brackets
 	eg2.tslint
 	wayou.vscode-todo-highlight
+	Shan.code-settings-sync
 )
 
 for extension in "${extensions[@]}"
