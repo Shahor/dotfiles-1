@@ -30,6 +30,7 @@ declare -a packages=(
 	istat-menus
 	font-fira-code
 	station
+	sqlpro-for-postgres
 )
 
 for tap in "${taps[@]}"
