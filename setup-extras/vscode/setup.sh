@@ -11,10 +11,10 @@ declare -a extensions=(
 	oderwat.indent-rainbow
 	zhuangtongfa.material-theme
 	esbenp.prettier-vscode
-	2gua.rainbow-brackets
 	eg2.tslint
 	wayou.vscode-todo-highlight
 	Shan.code-settings-sync
+	CoenraadS.bracket-pair-colorizer
 )
 
 for extension in "${extensions[@]}"
