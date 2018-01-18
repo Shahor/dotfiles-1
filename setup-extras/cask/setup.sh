@@ -31,6 +31,7 @@ declare -a packages=(
 	font-fira-code
 	station
 	insomnia
+	robo-3t
 )
 
 for tap in "${taps[@]}"
