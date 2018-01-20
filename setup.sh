@@ -37,6 +37,7 @@ done
 ./setup-extras/brew/setup.sh
 ./setup-extras/cask/setup.sh
 ./setup-extras/vscode/setup.sh
+./setup-extras/gcloud/tools.sh
 
 echo "I will now open the app store so you can install the remaining apps"
 echo "that I sadly can't install for you 😢  "
