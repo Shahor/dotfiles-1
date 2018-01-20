@@ -32,6 +32,7 @@ declare -a packages=(
 	station
 	insomnia
 	robo-3t
+	reaper
 )
 
 for tap in "${taps[@]}"
