@@ -11,6 +11,7 @@ declare -a packages=(
 	ruby # Use latest version
 	httpie
 	jq # Json formatter
+	stern
 )
 
 brew update
