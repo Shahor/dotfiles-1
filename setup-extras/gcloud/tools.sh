@@ -5,3 +5,4 @@ tar -xzf /tmp/gcloud.tgz -C /tmp/
 mv /tmp/google-cloud-sdk/ ~/.gcloud
 (cd ~/.gcloud && ./install.sh)
 gcloud auth login
+gcloud components install kubectl
