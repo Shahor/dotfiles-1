@@ -12,6 +12,7 @@ declare -a packages=(
 	httpie
 	jq # Json formatter
 	stern
+	asciinema # Terminal recorder
 )
 
 brew update
