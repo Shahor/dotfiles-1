@@ -12,9 +12,9 @@ declare -a extensions=(
 	zhuangtongfa.material-theme
 	esbenp.prettier-vscode
 	eg2.tslint
-	wayou.vscode-todo-highlight
 	Shan.code-settings-sync
 	CoenraadS.bracket-pair-colorizer
+	aaron-bond.better-comments
 )
 
 for extension in "${extensions[@]}"
