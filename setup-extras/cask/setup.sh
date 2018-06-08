@@ -20,19 +20,17 @@ declare -a packages=(
 	vlc
 	flux
 	spectacle
-	drop-to-gif
 	charles
 	wireshark
 	the-unarchiver
 	sequel-pro
-	simple-comic
 	sketch
-	istat-menus
 	font-fira-code
 	station
 	insomnia
 	robo-3t
 	reaper
+	kap
 )
 
 for tap in "${taps[@]}"
