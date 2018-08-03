@@ -31,6 +31,7 @@ declare -a packages=(
 	robo-3t
 	reaper
 	kap
+	keycastr
 )
 
 for tap in "${taps[@]}"
